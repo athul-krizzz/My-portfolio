@@ -1,0 +1,262 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Using Roboto for general text */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 250, 250);
+    color: #333;
+}
+
+/* Taskbar Styles */
+.navbar {
+    background-color: rgb(9, 13, 32);
+    display: flex;
+    justify-content: space-between;  /* Ensures both groups are on either side */
+    padding: 18px 20px;
+}
+
+.name {
+    color: white;
+    font-size: 15px;  /* Adjust the font size as needed */
+    font-family: 'Dancing Script', cursive; /* Cursive font */
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-right: 18px;  /* Add some spacing between name and buttons */
+    margin-left: 0px;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: center; /* Centers the buttons on the left side */
+    flex-grow: 1;
+    gap: 50px; 
+}
+
+.nav-right {
+    display: flex;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.contact-btn {
+    background-color: red; /* Red color for Contact button */
+}
+
+/* Hover effect */
+.navbar a:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+
+/* Main Section */
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #f8f4f4;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    text-align: centre;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border: 5px solid #d89228;
+}
+.school-photo {
+    /*border: 50%;*/
+    width: 1000px;
+    height: 400px;
+    object-fit: cover;
+    /*border: 5px solid #d89228;*/
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif; /* Using Poppins for headings */
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #0f0606;
+}
+
+/* About Section */
+/* #about {
+    padding: 50px 20px;
+    background-color: #f8f4f4;
+    text-align: center;
+    height: 90vh;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+} */
+
+#about {
+    padding: 50px 20px;
+    background-color: #f8f4f4;
+    text-align: center;
+    font-size: 3.3rem;
+    height: 90vh;
+}
+.about-grid {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-card h3 {
+    font-family: 'Poppins', sans-serif; /* Using Poppins for project titles */
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.about-card p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #666;
+}
+
+
+
+
+
+/* Projects Section */
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+    font-family: 'Poppins', sans-serif; /* Using Poppins for project titles */
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #666;
+}
+
+#social {
+    padding: 50px 20px;
+    background-color: #f8f4f4;
+    text-align: center;
+    font-size: 3.3rem;
+    height: 40vh;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;  /* Centers the icons */
+    gap: 120px;  /* Space between icons */
+    margin-top: 20px;
+}
+
+.social-icons img {
+    width: 100px;  /* Adjust size as needed */
+    height: 100px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);  /* Slight zoom effect on hover */
+}
+
+
+/* Contact Section */
+
+#contact {
+    padding: 50px 20px;
+    background-color: #f8f4f4;
+    text-align: center;
+    font-size: 3.3rem;
+    height: 40vh;
+}
+
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif; /* Using Poppins for button text */
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
