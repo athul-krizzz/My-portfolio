@@ -79,6 +79,7 @@ body {
     align-items: center;
     gap: 100px;
     text-align: centre;
+    font-size: 3.3rem;
 }
 
 .profile-photo {
@@ -167,6 +168,14 @@ h2 {
 
 
 /* Projects Section */
+
+#projects {
+    padding: 50px 20px;
+    background-color: #f8f4f4;
+    text-align: center;
+    font-size: 3.3rem;
+    height: 90vh;
+}
 .project-grid {
     display: flex;
     justify-content: center;
@@ -176,17 +185,22 @@ h2 {
 
 .project-card {
     background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #0f0606;
     padding: 20px;
     width: 250px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
+    text-decoration: none; 
 }
 
 .project-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
 
 .project-card h3 {
     font-family: 'Poppins', sans-serif; /* Using Poppins for project titles */
