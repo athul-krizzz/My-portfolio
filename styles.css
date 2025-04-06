@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-    font-family: 'Roboto', sans-serif; /* Using Roboto for general text */
+    font-family: 'Roboto', sans-serif; 
     margin: 0;
     padding: 0;
     background-color: rgb(252, 250, 250);
@@ -11,23 +11,23 @@ body {
 .navbar {
     background-color: rgb(9, 13, 32);
     display: flex;
-    justify-content: space-between;  /* Ensures both groups are on either side */
+    justify-content: space-between; 
     padding: 18px 20px;
 }
 
 .name {
     color: white;
-    font-size: 15px;  /* Adjust the font size as needed */
-    font-family: 'Dancing Script', cursive; /* Cursive font */
+    font-size: 15px;  
+    font-family: 'Dancing Script', cursive; 
     font-weight: bold;
     letter-spacing: 2px;
-    margin-right: 18px;  /* Add some spacing between name and buttons */
+    margin-right: 18px;  
     margin-left: 0px;
 }
 
 .nav-left {
     display: flex;
-    justify-content: center; /* Centers the buttons on the left side */
+    justify-content: center; 
     flex-grow: 1;
     gap: 50px; 
 }
@@ -55,7 +55,7 @@ body {
 }
 
 .contact-btn {
-    background-color: red; /* Red color for Contact button */
+    background-color: red; 
 }
 
 /* Hover effect */
@@ -98,7 +98,7 @@ body {
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif; /* Using Poppins for headings */
+    font-family: 'Poppins', sans-serif; 
     font-size: 3rem;
     margin-bottom: 15px;
 }
@@ -146,21 +146,27 @@ h2 {
     transition: transform 0.3s;
 }
 
-.about-card:hover {
+/* .about-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
+} */
 
 .about-card h3 {
-    font-family: 'Poppins', sans-serif; /* Using Poppins for project titles */
+    font-family: 'Poppins', sans-serif; 
     font-size: 1.5rem;
     margin-bottom: 15px;
 }
 
-.about-card p {
+.about-card ul {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    color: #666;
+    color: #0f0404;
+    list-style-type: disc; 
+    margin-left: 10px;
+}
+
+.about-card ul li {
+    margin-bottom: 10px; /* Adds space between each list item */
 }
 
 
@@ -203,7 +209,7 @@ h2 {
 
 
 .project-card h3 {
-    font-family: 'Poppins', sans-serif; /* Using Poppins for project titles */
+    font-family: 'Poppins', sans-serif; 
     font-size: 1.5rem;
     margin-bottom: 15px;
 }
@@ -224,19 +230,19 @@ h2 {
 
 .social-icons {
     display: flex;
-    justify-content: center;  /* Centers the icons */
-    gap: 120px;  /* Space between icons */
+    justify-content: center;  
+    gap: 120px;  
     margin-top: 20px;
 }
 
 .social-icons img {
-    width: 100px;  /* Adjust size as needed */
+    width: 100px;  
     height: 100px;
     transition: transform 0.3s;
 }
 
 .social-icons img:hover {
-    transform: scale(1.1);  /* Slight zoom effect on hover */
+    transform: scale(1.1); 
 }
 
 
@@ -266,7 +272,7 @@ form button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-family: 'Poppins', sans-serif; /* Using Poppins for button text */
+    font-family: 'Poppins', sans-serif; 
     font-size: 1.1rem;
     transition: background-color 0.3s;
 }
